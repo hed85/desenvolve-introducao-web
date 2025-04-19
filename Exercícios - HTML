@@ -1,0 +1,12 @@
+1 - As tags tem a função de delimitar o espaço que o conteúdo de uma página em HTML. Já a função do corpo é apresentar todo o conteúdo visível do texto, enquanto que o atributo 
+a função de conferir características especiais às partes do texto que foram marcadas com eles.
+
+2 - Elemento vazio é um elemento que não precisa de tag de fechamento por não possuir conteúdo. Sua funcionalidade é deixar o texto mais dinâmico, apresentável e interativo.
+Podemos citar como exemplo de elementos vazios, a imagem <img>; o link <link>; a entrada de formulários <input> e a quebra de linhas <br>.
+
+3 - 
+
+4 - A - "Header" e "Footer" são os vizinhos de "Main".
+    B - Os ancestrais de "ul" sâo "html", "body", "header" e "nav".
+    C - "Header" é elemento pai de "h1" e "nav".
+    D - Entre "html" e "strong", existem cinco níveis de hierarquia.
