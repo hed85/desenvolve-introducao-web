@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula de fotografia</title>
+    </head>
+    <body>
+        <h1>Identificação</h1>
+        <form action="tratamento.html" metod="POST"></form>
+            <section>
+                <h2>Dados Para Contato:</h2>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Insira seu nome" id="nome"/>
+                </p>
+                <p>
+                     <label for="email">E-mail:</label>
+                    <input type="text" placeholder="Insira seu e-mail:" id="email"/>
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" placeholder="Insira seu telefone:" id="email"/>
+                </p>
+            </section>
+            <section>
+                <h2>Sobre meus conhecimentos.</h2>    
+                <p>
+                    A afirmação que me descreve melhor é: <br>
+                    <input type="radio" id="Nem sei ligar a câmera" name="experiência" />
+                    <label for="Nem sei ligar a câmera">Nem sei ligar a câmera.</label> <br>
+                    <input type="radio" id="Já faço umas fotos" name="experiência" />
+                    <label for="Já faço umas fotos">Já faço umas fotos.</label> <br>
+                    <input type="radio" id="Ganho um dinheiro com minhas fotos" name="experiência" />
+                    <label for="Ganho um dinheiro com minhas fotos">Ganho um dinheiro com minhas fotos.</label> <br>
+                    <input type="radio" id="Sou fotógrafo profissional" name="experiência" />
+                    <label for="Sou fotógrafo profissional">Sou fotógrafo profissional.</label>
+                </p>
+                <p>
+                    Prefiro as aulas ao vivo: <br>
+                    <input type="radio" id="Manhã" name="periodo" />
+                    <label for="Manhã">Manhã</label> <br>
+                    <input type="radio" id="Tarde" name="periodo" />
+                    <label for="Tarde">Tarde</label> <br>
+                    <input type="radio" id="Noite" name="periodo" />
+                    <label for="Noite">Noite</label> 
+                </p>
+                <p>
+                     Quero aprender sobre: <br>
+                    <select multiple>
+                    <option>Configuração de Equipamentos</option>
+                    <option>Direção de Modelos</option>
+                    <option>Edição de Fotos</option>
+                    <option>Regras de Composição</option>
+                    <option>Técnicas de Iluminação</option>
+                    <option>Astrofotografia</option>
+                    <option>Fotojornalismo</option>
+                    <option>Fotografia em Estúdio</option>
+                    <option>Fotografia de Eventos</option>
+                    <option>Fotografia de Esportes</option>
+                    <option>Fotogafia de Paisagens e Natureza</option>
+                    <option>Fotografia de Produtos</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" id="autorizo" />
+                    <label for="autorizo">Autorizo o uso dos meus dados por sites parceiros.</label>
+                </p>
+            </section>
+            <input type="submit" value="Enviar" />
+        </form>        
+    </body>
+</html>
