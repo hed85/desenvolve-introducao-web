@@ -1,0 +1,38 @@
+/*
+- Implementar um código para que os links de um página tenham a cor padrão vermelha e apresentem a cor verde limão quando apontados pelo cursor.
+*/
+a {
+    color: red;
+}
+a:hover {
+    color: lime;
+}
+/*
+- Parágrafos em geral terão a fonte Arial
+
+- Parágrafos declarados logo após h1 ficarão em negrito
+*/
+p {
+    font-family: 'Arial';
+}
+
+h1 + p{
+    font-weight: bold;
+}
+/*
+- A classe .destaque terá:
+    - fonte padrão Arial.
+    - se atribuída a um parágrafo, ficará em negrito.
+    - se atribuída a uma <strong>, ficará com a cor vermelha.
+*/
+.destaque {
+    font-family: 'Arial';
+}
+
+p.destaque {
+    font-weight: bold;
+}
+
+strong.destaque {
+    color: red;
+}
