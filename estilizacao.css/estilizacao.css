@@ -1,0 +1,53 @@
+/* Color Theme Swatches in RGBA 
+.22:38-1-rgba { color: rgba(16, 69, 79, 1); }
+.22:38-2-rgba { color: rgba(79, 98, 102, 1); }
+.22:38-3-rgba { color: rgba(128, 130, 116, 1); }
+.22:38-4-rgba { color: rgba(163, 170, 119, 1); }
+.22:38-5-rgba { color: rgba(189, 224, 55, 1); }
+*/
+
+html {
+    background: rgb(256, 260, 232);
+    color: #10454F;  
+}
+
+/* 
+- Definir tamanho fixo para a página inteira.
+- Definir fonte do tipo sans-serif.
+- Identitar todos os parágrafos.
+*/
+
+html {
+    font-size: 20px;
+    font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+    text-indent: 50px;
+}
+
+
+/*
+-Alinhar os títulos ao centro ou à direita.
+-Definir tamanho de h1 em 1.8rem.
+-Definir tamanho de h2 em 1.4rem.
+-Definir tamanho de h3 em 1.2rem.
+*/
+
+h1, h2, h3 {
+    text-align: center;
+}
+h1 {font-size: 1.8rem;}
+h2 {font-size: 1.4rem;}
+h3 {font-size: 1.2rem;}
+
+/*
+-Alinhar a seção resumo ao centro ou à direita.
+-Espaçar as linhas em 1.5 para os parágrafos da seção principal.
+*/
+
+.summary {text-align: center;}
+.main p {line-height: 1.5;}
+
+/*
+-Customizar as abreviaturas para ter a fonte em small-caps.
+*/
+
+.abbr {font-variant: small-caps;}
