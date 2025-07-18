@@ -1,0 +1,19 @@
+/* Color Theme Swatches in Hex 
+.22:38-1-hex { color: #10454F; }
+.22:38-2-hex { color: #506266; }
+.22:38-3-hex { color: #818274; }
+.22:38-4-hex { color: #A3AB78; }
+.22:38-5-hex { color: #BDE038; }
+
+/* Color Theme Swatches in RGBA 
+.22:38-1-rgba { color: rgba(16, 69, 79, 1); }
+.22:38-2-rgba { color: rgba(79, 98, 102, 1); }
+.22:38-3-rgba { color: rgba(128, 130, 116, 1); }
+.22:38-4-rgba { color: rgba(163, 170, 119, 1); }
+.22:38-5-rgba { color: rgba(189, 224, 55, 1); }
+*/
+
+html {
+    background: rgb(256, 260, 232);
+    color: #10454F;  
+}
